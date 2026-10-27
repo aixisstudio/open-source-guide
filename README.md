@@ -42,6 +42,42 @@ Warm up on purpose-built sandboxes (no judgment, bots merge instantly):
 - Answer Discussions — maintainers remember helpers
 - Consistency beats bursts: one small PR/week builds a real profile
 
+## 🔬 How to read an unfamiliar codebase
+
+1. `README.md` + `CONTRIBUTING.md` — the intent
+2. `git log --oneline -50` — what's actively changing
+3. Tests — they document behavior better than docs
+4. Find the entrypoint, follow one request end-to-end
+5. `rg "TODO|FIXME|HACK"` — where the maintainers know it hurts
+
+## 📬 Your first PR — the etiquette
+
+- **Small is respected**: typo fix > half-broken feature
+- **Read the last 10 merged PRs**: they teach the project's review style
+- **Don't ask "can I work on this"**: just open the PR or comment once, briefly
+- **Conventional commits**: `feat:`, `fix:`, `docs:` — check the log first
+- **CI red = unmergeable**: run the checks locally first
+
+## 🎓 Programs worth knowing
+
+| Program | For | Prize |
+|---|---|---|
+| Hacktoberfest | everyone | digital rewards |
+| Google Summer of Code | students | stipend + mentorship |
+| MLH Fellowship | students | remote internship |
+| Outreachy | underrepresented | $7k internship |
+| Sovereign Tech Fund | maintainers | funding |
+
+## ⚖️ License quick-decision
+
+| You want | Pick |
+|---|---|
+| "Just use it" | MIT |
+| Credit + patent protection | Apache-2.0 |
+| Share-alike | GPL-3.0 |
+| Docs/content | CC-BY-4.0 |
+| Public domain | Unlicense |
+
 ---
 Maintained by [aixisstudio](https://github.com/aixisstudio) — author of [Snitch](https://github.com/aixisstudio/Snitch), the open-source application firewall.
 
