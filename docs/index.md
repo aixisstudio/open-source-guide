@@ -1,0 +1,53 @@
+---
+---
+Your first open-source contribution, step by step
+
+## 🗺️ Your first open-source contribution, step by step
+
+### 1. Find a beginner-friendly project
+
+- https://goodfirstissue.dev — curated `good first issue`s across projects
+- GitHub topic search: [`good-first-issue`](https://github.com/topics/good-first-issue)
+- Docs & translations are the easiest entry points — every project wants them
+
+### 2. Understand the workflow
+
+```
+fork → clone → branch → edit → commit → push → pull request → review → merge
+```
+
+- **Fork** = your own server-side copy you can push to
+- **Branch** = don't work on `main`, ever
+- **PR** = your proposal + the discussion around it
+
+### 3. PRs that get accepted
+
+- Read `CONTRIBUTING.md` first — always
+- One change per PR — small beats big
+- Explain **why**, not just what — maintainers merge context, not code
+- Be responsive in review — a PR you abandon dies
+
+### 4. Practice safely first
+
+Warm up on purpose-built sandboxes (no judgment, bots merge instantly):
+
+- [first-pull-request](https://github.com/aixisstudio/first-pull-request) — your very first PR
+- [add-your-name](https://github.com/aixisstudio/add-your-name) — join the contributors wall
+
+### 5. Level up
+
+- Issues → reproductions → fixes: the trust ladder
+- Answer Discussions — maintainers remember helpers
+- Consistency beats bursts: one small PR/week builds a real profile
+
+
+## ❓ Frequently Asked Questions
+
+**How do I start contributing to open source?**
+
+Find a `good first issue`, fork the repo, make a small focused PR, respond to review — this guide walks through every step.
+
+
+---
+
+Maintained by [aixisstudio](https://github.com/aixisstudio) — author of [Snitch](https://github.com/aixisstudio/Snitch), the open-source application firewall. See also: [all resources](https://aixisstudio.github.io).
