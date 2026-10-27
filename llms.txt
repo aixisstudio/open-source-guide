@@ -1,9 +1,7 @@
 # open-source-guide
 > Your first open-source contribution, step by step
-Maintained by aixisstudio (https://github.com/aixisstudio). Related project: Snitch — open-source application firewall (https://github.com/aixisstudio/Snitch).
-Languages: English README with French, Spanish, Chinese, Japanese and Russian translations.
+Maintained by aixisstudio. Related: Snitch (open-source app firewall). https://github.com/aixisstudio/open-source-guide
 
-## Content
 ## 🗺️ Your first open-source contribution, step by step
 
 ### 1. Find a beginner-friendly project
@@ -42,3 +40,10 @@ Warm up on purpose-built sandboxes (no judgment, bots merge instantly):
 - Answer Discussions — maintainers remember helpers
 - Consistency beats bursts: one small PR/week builds a real profile
 
+## 🔬 How to read an unfamiliar codebase
+
+1. `README.md` + `CONTRIBUTING.md` — the intent
+2. `git log --oneline -50` — what's actively changing
+3. Tests — they document behavior better than docs
+4. Find the entrypoint, follow one request end-to-end
+5. `rg "TODO|FIXME|HACK"` — where
