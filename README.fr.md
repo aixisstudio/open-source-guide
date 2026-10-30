@@ -4,81 +4,79 @@
 
 Ta première contribution open source, pas à pas
 
-_Le contenu détaillé (listes, liens, descriptions) est en anglais pour rester maintenable — les sections ci-dessous te guident._
+Votre première contribution open-source, étape par étape
 
-## 🗺️ Your first open-source contribution, step by step
+1. Trouver un projet convivial pour les débutants
 
-### 1. Find a beginner-friendly project
+- https://goodfirstissue.dev — `good first issue` curés pour tous les projets
+- Recherche de sujet GitHub: [`good-first-issue`](https://github.com/topics/good-first-issue)
+- Docs & traductions sont les points d'entrée les plus faciles — chaque projet les veut
 
-- https://goodfirstissue.dev — curated `good first issue`s across projects
-- GitHub topic search: [`good-first-issue`](https://github.com/topics/good-first-issue)
-- Docs & translations are the easiest entry points — every project wants them
-
-### 2. Understand the workflow
+2. Comprendre le flux de travail
 
 ```
 fork → clone → branch → edit → commit → push → pull request → review → merge
 ```
 
-- **Fork** = your own server-side copy you can push to
-- **Branch** = don't work on `main`, ever
-- **PR** = your proposal + the discussion around it
+- **Fork** = votre propre copie côté serveur
+- **Branche** = ne fonctionne pas sur `main`, jamais
+- **PR** = votre proposition + la discussion autour
 
-### 3. PRs that get accepted
+3. Les PR qui sont acceptées
 
-- Read `CONTRIBUTING.md` first — always
-- One change per PR — small beats big
-- Explain **why**, not just what — maintainers merge context, not code
-- Be responsive in review — a PR you abandon dies
+- Lisez d'abord le `CONTRIBUTING.md` — toujours
+- Un changement par PR — petits battements
+- Expliquer **pourquoi**, pas seulement quoi — les responsables fusionnent le contexte, pas le code
+- Soyez réceptif à l'examen — un PR que vous abandonnez meurt
 
-### 4. Practice safely first
+4. Pratiquez en toute sécurité d'abord
 
-Warm up on purpose-built sandboxes (no judgment, bots merge instantly):
+Chauffer sur des bacs à sable spécialement conçus (pas de jugement, les robots fusionnent instantanément):
 
-- [first-pull-request](https://github.com/aixisstudio/first-pull-request) — your very first PR
-- [add-your-name](https://github.com/aixisstudio/add-your-name) — join the contributors wall
+- [première demande] (https://github.com/aixisstudio/first-pull-request) — votre première communication
+- [ajouter votre nom] (https://github.com/aixisstudio/add-your-name) - rejoindre le mur des contributeurs
 
-### 5. Level up
+Niveau 5.
 
-- Issues → reproductions → fixes: the trust ladder
-- Answer Discussions — maintainers remember helpers
-- Consistency beats bursts: one small PR/week builds a real profile
+- Numéros → reproductions → correctifs : l'échelle de confiance
+- Discussions sur les réponses — les responsables se souviennent des aides
+- Les battements de cohérence éclatent : un petit PR/semaine construit un profil réel
 
-## 🔬 How to read an unfamiliar codebase
+Comment lire une base de code inconnue
 
-1. `README.md` + `CONTRIBUTING.md` — the intent
-2. `git log --oneline -50` — what's actively changing
-3. Tests — they document behavior better than docs
-4. Find the entrypoint, follow one request end-to-end
-5. `rg "TODO|FIXME|HACK"` — where the maintainers know it hurts
+1. `README.md` + `CONTRIBUTING.md` — l'intention
+2. `git log --oneline -50` — Ce qui change activement
+3. Tests — ils documentent mieux le comportement que les docs
+4. Trouvez le point d'entrée, suivez une demande de bout en bout
+5. `rg "TODO|FIXME|HACK"` — où les responsables savent que ça fait mal
 
-## 📬 Your first PR — the etiquette
+Votre premier PR — l'étiquette
 
-- **Small is respected**: typo fix > half-broken feature
-- **Read the last 10 merged PRs**: they teach the project's review style
-- **Don't ask "can I work on this"**: just open the PR or comment once, briefly
-- **Conventional commits**: `feat:`, `fix:`, `docs:` — check the log first
-- **CI red = unmergeable**: run the checks locally first
+- **Small is respected**: typo fix > semi-broken feature
+- **Lire les 10 derniers PR fusionnés** : ils enseignent le style de révision du projet
+- **Ne demandez pas "pourrais-je travailler là-dessus"**: il suffit d'ouvrir le PR ou de commenter une fois, brièvement
+- **Sorties conventionnelles**: `feat:`, `fix:`, `docs:` — vérifier le journal d'abord
+- **CI rouge = inmergable** : effectuer les vérifications localement d'abord
 
-## 🎓 Programs worth knowing
+Programmes à connaître
 
-| Program | For | Prize |
+Programme pour Prix
 |---|---|---|
-| Hacktoberfest | everyone | digital rewards |
-| Google Summer of Code | students | stipend + mentorship |
-| MLH Fellowship | students | remote internship |
-| Outreachy | underrepresented | $7k internship |
-| Sovereign Tech Fund | maintainers | funding |
+Hacktoberfest: tout le monde: récompenses numériques:
+Google Été du Code des étudiants
+MLH Bourse d'études d'étudiants distants
+Un stage de 7 000 $ sous-représenté
+Fonds souverain de technologie
 
-## ⚖️ License quick-decision
+License décision rapide
 
-| You want | Pick |
+Vous voulez
 |---|---|
-| "Just use it" | MIT |
-| Credit + patent protection | Apache-2.0 |
-| Share-alike | GPL-3.0 |
-| Docs/content | CC-BY-4.0 |
-| Public domain | Unlicense |
+"Utilisez-le"
+Crédit + protection par brevet
+Part-aimable
+Docs/contenu
+Domaine public
 
 ---
 ## Contribuer
