@@ -4,81 +4,79 @@
 
 初めてのオープンソース貢献、ステップバイステップ
 
-_詳細なコンテンツ（リスト・リンク・説明）は保守のため英語です。以下のセクションがガイドになります。_
+## 翻訳 初めてのオープンソースへの貢献、ステップバイステップ
 
-## 🗺️ Your first open-source contribution, step by step
+##1. 初心者に優しいプロジェクトを見つける
 
-### 1. Find a beginner-friendly project
+- https://goodfirstissue.dev — プロジェクト全体で`good first issue`をキュレーション
+- GitHubのトピック検索: [`good-first-issue`](https://github.com/topics/good-first-issue)
+- ドキュメントと翻訳は最も簡単なエントリポイントです。すべてのプロジェクトはそれらを望んでいます
 
-- https://goodfirstissue.dev — curated `good first issue`s across projects
-- GitHub topic search: [`good-first-issue`](https://github.com/topics/good-first-issue)
-- Docs & translations are the easiest entry points — every project wants them
-
-### 2. Understand the workflow
+##2. ワークフローを理解する
 
 ```
 fork → clone → branch → edit → commit → push → pull request → review → merge
 ```
 
-- **Fork** = your own server-side copy you can push to
-- **Branch** = don't work on `main`, ever
-- **PR** = your proposal + the discussion around it
+-**Fork** = 自分のサーバー側のコピーをプッシュできます
+-**Branch** = `main`では動作しません。
+-**PR** = あなたの提案+それについての議論
 
-### 3. PRs that get accepted
+##3.受け入れられるPR
 
-- Read `CONTRIBUTING.md` first — always
-- One change per PR — small beats big
-- Explain **why**, not just what — maintainers merge context, not code
-- Be responsive in review — a PR you abandon dies
+- `CONTRIBUTING.md`を最初に読む — 常に
+- PRごとに1つの変更 — 小さなビートが大きい
+- 説明する**なぜ**、単なるものではなく、メンテナーはコンテキストをマージし、コードではなく
+- レビューで反応する - あなた放棄された死ぬPR
 
-### 4. Practice safely first
+##4. 安全に最初に練習する
 
-Warm up on purpose-built sandboxes (no judgment, bots merge instantly):
+目的作り付けのサンドボックス(判断なし、ボットは即座にマージします):
 
-- [first-pull-request](https://github.com/aixisstudio/first-pull-request) — your very first PR
-- [add-your-name](https://github.com/aixisstudio/add-your-name) — join the contributors wall
+- [first-pull-request](https://github.com/aixisstudio/first-pull-request) - あなたの最初のPR
+- [add-your-name](https://github.com/aixisstudio/add-your-name) — コントリビューターの壁に参加
 
-### 5. Level up
+##5. レベルアップ
 
-- Issues → reproductions → fixes: the trust ladder
-- Answer Discussions — maintainers remember helpers
-- Consistency beats bursts: one small PR/week builds a real profile
+- 課題→再生→修正:信頼の梯子
+- 回答ディスカッション — メンテナーはヘルパーを覚えています
+- 一貫性はバーストを打ちます: 1つの小さなPR /週は実際のプロファイルを構築します
 
-## 🔬 How to read an unfamiliar codebase
+## 🔬 不慣れなコードベースを読む方法
 
-1. `README.md` + `CONTRIBUTING.md` — the intent
-2. `git log --oneline -50` — what's actively changing
-3. Tests — they document behavior better than docs
-4. Find the entrypoint, follow one request end-to-end
-5. `rg "TODO|FIXME|HACK"` — where the maintainers know it hurts
+1. `README.md` + `CONTRIBUTING.md` — 意図
+2. `git log --oneline -50` — 何が積極的に変化するのか
+3. テスト — ドキュメントよりも優れた動作を文書化
+4. 記入項目を見つけて下さい、1つの要求に終りに続いて下さい
+5. `rg "TODO|FIXME|HACK"` — メンテナーが痛むことを知っているところ
 
-## 📬 Your first PR — the etiquette
+## 📬 最初のPR — etiquette
 
-- **Small is respected**: typo fix > half-broken feature
-- **Read the last 10 merged PRs**: they teach the project's review style
-- **Don't ask "can I work on this"**: just open the PR or comment once, briefly
-- **Conventional commits**: `feat:`, `fix:`, `docs:` — check the log first
-- **CI red = unmergeable**: run the checks locally first
+-**Smallは尊重されます**:typoの修正>半壊れ目の特徴
+-**最終10マージPRを読む**:プロジェクトのレビュースタイルを教える
+- **「この上で働くことができる」と尋ねないでください**:一度PRまたはコメントを開くだけで、簡単に
+- **条件付きコミット**: `feat:`, `fix:`, `docs:` — ログを最初に確認する
+-**CI red = unmergeable**: ローカルでチェックを実行する
 
-## 🎓 Programs worth knowing
+## 本当に知る価値のあるプログラム
 
-| Program | For | Prize |
+| プログラム | 受賞 |
 |---|---|---|
-| Hacktoberfest | everyone | digital rewards |
-| Google Summer of Code | students | stipend + mentorship |
-| MLH Fellowship | students | remote internship |
-| Outreachy | underrepresented | $7k internship |
-| Sovereign Tech Fund | maintainers | funding |
+| ハクトバーフェスト | みんな | デジタルリワード |
+| Google Summer of Code | 学生 | 素早い + メンターシップ |
+| MLHフェローシップ | 学生 | リモートインターンシップ |
+| アウトリーシー | 代表 | $7k インターンシップ |
+| Sovereign Tech Fund | メンテナー | 資金調達 |
 
-## ⚖️ License quick-decision
+## ライセンス クイック決定
 
-| You want | Pick |
+| ご希望の | おすすめ |
 |---|---|
-| "Just use it" | MIT |
-| Credit + patent protection | Apache-2.0 |
-| Share-alike | GPL-3.0 |
-| Docs/content | CC-BY-4.0 |
-| Public domain | Unlicense |
+| 「ジャストユース」 | MIT |
+| クレジット + 特許保護 | Apache 2.0 |
+| シェアライク | GPL-3.0 |
+| ドキュメント・コンテンツ | CC-BY-4.0 |
+| パブリックドメイン | ライセンス |
 
 ---
 ## 貢献
