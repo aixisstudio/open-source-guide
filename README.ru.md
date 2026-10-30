@@ -4,81 +4,79 @@
 
 Твой первый вклад в open source, шаг за шагом
 
-_Подробное содержимое (списки, ссылки, описания) ведётся на английском — разделы ниже помогут сориентироваться._
+## -️ Ваш первый вклад с открытым исходным кодом, шаг за шагом
 
-## 🗺️ Your first open-source contribution, step by step
+###1 Найти проект для начинающих
 
-### 1. Find a beginner-friendly project
+https://goodfirstissue.dev — куратор `good first issue` по проектам
+Поиск по теме GitHub: [`good-first-issue`] (https://github.com/topics/good-first-issue)
+Документы и переводы - самые простые точки входа - каждый проект хочет их
 
-- https://goodfirstissue.dev — curated `good first issue`s across projects
-- GitHub topic search: [`good-first-issue`](https://github.com/topics/good-first-issue)
-- Docs & translations are the easiest entry points — every project wants them
-
-### 2. Understand the workflow
+###2 Понять рабочий процесс
 
 ```
 fork → clone → branch → edit → commit → push → pull request → review → merge
 ```
 
-- **Fork** = your own server-side copy you can push to
-- **Branch** = don't work on `main`, ever
-- **PR** = your proposal + the discussion around it
+**Fork** = ваша собственная серверная копия, на которую вы можете нажать
+**Ветвь ** = не работайте на `main`, никогда
+**PR** = Ваше предложение + обсуждение вокруг него
 
-### 3. PRs that get accepted
+###3.Принятые пиарщики
 
-- Read `CONTRIBUTING.md` first — always
-- One change per PR — small beats big
-- Explain **why**, not just what — maintainers merge context, not code
-- Be responsive in review — a PR you abandon dies
+Читать `CONTRIBUTING.md` сначала - всегда
+Одно изменение в PR — маленькие биты большие
+Объясните, почему, а не только что — носители объединяют контекст, а не код.
+Будьте отзывчивы в обзоре - PR, от которого вы отказываетесь, умирает
 
-### 4. Practice safely first
+###4: сначала позаботьтесь о безопасности
 
-Warm up on purpose-built sandboxes (no judgment, bots merge instantly):
+Разогрейте специально построенные песочницы (без осуждения, боты мгновенно сливаются):
 
-- [first-pull-request](https://github.com/aixisstudio/first-pull-request) — your very first PR
-- [add-your-name](https://github.com/aixisstudio/add-your-name) — join the contributors wall
+- [первый запрос] (https://github.com/aixisstudio/first-pull-request) - ваш самый первый PR
+- [добавить ваше имя] (https://github.com/aixisstudio/add-your-name) - присоединиться к стене вкладчиков
 
-### 5. Level up
+###5 - Повышаем уровень
 
-- Issues → reproductions → fixes: the trust ladder
-- Answer Discussions — maintainers remember helpers
-- Consistency beats bursts: one small PR/week builds a real profile
+Проблемы → репродукции → исправления: лестница доверия
+Ответы на вопросы - сторонники помнят помощников
+Последовательность побеждает всплески: один маленький PR / неделя создает реальный профиль
 
-## 🔬 How to read an unfamiliar codebase
+Как читать незнакомую кодовую базу
 
-1. `README.md` + `CONTRIBUTING.md` — the intent
-2. `git log --oneline -50` — what's actively changing
-3. Tests — they document behavior better than docs
-4. Find the entrypoint, follow one request end-to-end
-5. `rg "TODO|FIXME|HACK"` — where the maintainers know it hurts
+1. `README.md` + `CONTRIBUTING.md` — намерение
+2. `git log --oneline -50` — что активно меняется
+3 Тесты — они документируют поведение лучше, чем документы
+4.Найти точку входа, выполнить один запрос сквозной
+5. `rg "TODO|FIXME|HACK"` - где хранители знают, что это больно
 
-## 📬 Your first PR — the etiquette
+##  the Ваш первый пиар — этикет
 
-- **Small is respected**: typo fix > half-broken feature
-- **Read the last 10 merged PRs**: they teach the project's review style
-- **Don't ask "can I work on this"**: just open the PR or comment once, briefly
-- **Conventional commits**: `feat:`, `fix:`, `docs:` — check the log first
-- **CI red = unmergeable**: run the checks locally first
+**Маленький уважается**: исправление опечатки > полуразбитая функция
+**Читайте последние 10 слитых PR**: они учат стиль обзора проекта
+** Не спрашивайте «Могу ли я работать над этим»**: просто откройте PR или комментарий один раз, кратко
+**Обычные обязательства**: `feat:`, `fix:`, `docs:` — сначала проверьте журнал
+**CI red = unmergeable**: сначала запустите чеки локально
 
-## 🎓 Programs worth knowing
+###Программы, которые стоит знать
 
-| Program | For | Prize |
+Призовой фонд | Prize
 |---|---|---|
-| Hacktoberfest | everyone | digital rewards |
-| Google Summer of Code | students | stipend + mentorship |
-| MLH Fellowship | students | remote internship |
-| Outreachy | underrepresented | $7k internship |
-| Sovereign Tech Fund | maintainers | funding |
+Hacktoberfest — все цифровые награды
+Google Summer of Code | Студенты | стипендия + наставничество
+Стипендия MLH | Студенты | удаленная стажировка
+| Outreachy | недопредставленная | стажировка $ 7k
+Суверенный технологический фонд | техподдержки | финансирование
 
-## ⚖️ License quick-decision
+## -️ Быстрое решение
 
-| You want | Pick |
+Вы хотите скачать торрент
 |---|---|
-| "Just use it" | MIT |
-| Credit + patent protection | Apache-2.0 |
-| Share-alike | GPL-3.0 |
-| Docs/content | CC-BY-4.0 |
-| Public domain | Unlicense |
+«Просто используй это» — MIT
+| Кредит + патентная защита | Apache-2.0
+Схожие с общими - GPL-3.0
+| Документы/контент | CC-BY-4.0 |
+| Общественное достояние | Лицензия
 
 ---
 ## Участие
